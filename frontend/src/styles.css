@@ -1,0 +1,4 @@
+body { font-family: Arial, Helvetica, sans-serif; margin:0; }
+.container { max-width: 900px; margin: 20px auto; }
+button { padding:6px 10px; }
+input, textarea { padding:6px; border:1px solid #ccc; border-radius:4px; }
