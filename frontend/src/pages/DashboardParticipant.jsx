@@ -98,8 +98,8 @@ export default function DashboardParticipant() {
     <div className="dashboard-container">
       <header className="dashboard-header">
         <div className="user-info">
-          <h2>Student Dashboard</h2>
-          <span>{user?.name} ({user?.id})</span>
+          <h2 class="white-heading">Student Dashboard</h2>
+          <span class="white-span">{user?.name} ({user?.id})</span>
         </div>
         <button onClick={logout} className="logout-btn">Logout</button>
       </header>
